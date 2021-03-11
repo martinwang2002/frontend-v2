@@ -1,5 +1,5 @@
 <template>
-  <div class="d-block mr-5">
+  <div class="d-block mr-5 flex-grow-1 flex-shrink-1">
     <div class="subtitle-2 grey--text mb-1">
       <slot
         v-if="!!$slots.title"

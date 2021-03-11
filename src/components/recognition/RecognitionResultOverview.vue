@@ -3,7 +3,7 @@
     <FactTable>
       <FactTableItem
         title="成功识别"
-        :content="total + ' 张截图'"
+        :content="total + ' 张'"
       />
       <FactTableItem
         title="通过检测"

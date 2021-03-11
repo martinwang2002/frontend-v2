@@ -244,6 +244,18 @@ report:
     exceptions:
       "Fingerprint::Same": 此张图片与其他一张图片的内容完全一致
       "Drop::IllegalDrop": 识别结果出现了不合法的掉落物
+      "Stage::NotFound": 无法找到关卡
+      "Baseline_h::NotFound": 无法识别水平基准线
+      "3stars::False": 我们不接受非三星通关
+      "Result::False": 没有结果
+      "Droptype::First": 我们不接受首次通关的掉落结果
+      "Droptype::Undefined": 未定义的掉落类型
+      "Droptype::WrongOrder": 奇特的掉落顺序
+      "Droptype::NotFound": 无法识别掉落类型
+      "Drop::LowConfidence": 掉落物品识别结果不可靠
+      "DropQuantity::LowConfidence": 掉落数量识别结果不可靠
+      "DropQuantity::NotFound": 无法识别掉落数量
+      "FileTimestamp::TooClose": 文件时间戳过近
   rules:
     item:
       _name: 物品项

@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-row align-start">
+  <div class="d-flex flex-row align-start flex-breakline">
     <slot />
   </div>
 </template>
@@ -11,5 +11,8 @@ export default {
 </script>
 
 <style scoped>
-
+.flex-breakline {
+  flex-flow: wrap;
+  word-break: keep-all;
+}
 </style>
